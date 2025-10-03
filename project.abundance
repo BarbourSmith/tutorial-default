@@ -1,15 +1,58 @@
 {
-    "atomType": "Molecule",
-    "name": "tutorial-default",
-    "x": 0,
-    "y": 0,
-    "uniqueID": "1548c13b-e15f-4f32-a98a-c8ad0cb95d77",
-    "ioValues": [],
-    "topLevel": true,
-    "allAtoms": [],
-    "allConnectors": [],
-    "unitsKey": "MM",
-    "fileTypeVersion": 1,
-    "compiledBom": {},
-    "filetypeVersion": 1
+  "atomType": "Molecule",
+  "name": "tutorial-default",
+  "x": 0,
+  "y": 0,
+  "uniqueID": "1548c13b-e15f-4f32-a98a-c8ad0cb95d77",
+  "ioValues": [],
+  "topLevel": true,
+  "allAtoms": [
+    {
+      "atomType": "Output",
+      "name": "Output",
+      "x": 0.98,
+      "y": 0.5,
+      "uniqueID": "202dcfe6-80bb-453a-abe7-2cde5350309d",
+      "ioValues": []
+    },
+    {
+      "atomType": "Circle",
+      "name": "Circle",
+      "x": 0.3167989417989418,
+      "y": 0.479108635097493,
+      "uniqueID": "18b37c88-b0cc-42d9-8bed-da4f71bd442f",
+      "ioValues": [
+        {
+          "name": "diameter",
+          "ioValue": 30,
+          "currentEquation": "30"
+        }
+      ]
+    },
+    {
+      "atomType": "Extrude",
+      "name": "Extrude",
+      "x": 0.4537037037037038,
+      "y": 0.5097493036211699,
+      "uniqueID": "3203f20c-3d8b-4f3a-805f-357745a85051",
+      "ioValues": [
+        {
+          "name": "height",
+          "ioValue": 10
+        }
+      ]
+    }
+  ],
+  "allConnectors": [
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "geometry",
+      "ap1ID": "18b37c88-b0cc-42d9-8bed-da4f71bd442f",
+      "ap2ID": "3203f20c-3d8b-4f3a-805f-357745a85051"
+    }
+  ],
+  "unitsKey": "MM",
+  "fileTypeVersion": 1,
+  "compiledBom": {},
+  "filetypeVersion": 1
 }
